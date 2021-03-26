@@ -1,6 +1,6 @@
 const http=require('http');
 
-var dt= require('./myfisrtmodule')
+var dt= require('./myModule')
 
 http.createServer(function(req,res){
     res.writeHead(200, {'content-type':'text/plain '})
